@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+-(BOOL)checkStringIsInteger:(NSString *)toCheck;
+-(void)resetButton;
+-(BOOL)checkStringIsOperation:(NSString *)toCheck;
 
 @end
 
