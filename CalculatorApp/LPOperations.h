@@ -12,6 +12,6 @@
 
 @property NSMutableArray *arrayValuesForMathOperations;
 
-
+-(NSNumber *)doTheMath:(NSMutableArray *)arrayWithValues;
 
 @end
